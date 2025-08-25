@@ -55,3 +55,14 @@ console.log(multiply(5, 3, 10));
 console.log(multiply(9, 3, 10));
 console.log(multiply(9, 83, 10));
 
+
+function changeText(){
+    //changing an element
+    let title = document.getElementById("title");
+    title.textContent = "Hello Web Module Session One!"
+    title.style.color = "red";
+    //adding an element
+    let newDiv = document.createElement("div");
+    newDiv.textContent = "Hey! I was not here before!!!";
+    document.body.appendChild(newDiv);
+}
